@@ -1,0 +1,241 @@
+.mainbody {
+  position: relative;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.head {
+  width: 100%;
+  height: 27%;
+}
+.head img {
+  height: 100%;
+  width: 100%;
+}
+.form {
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 3% 4%;
+  width: 86%;
+  height: 56%;
+  border: 1px #DADADA solid;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.box {
+  display: box;
+  display: -webkit-box;
+  height: 10%;
+}
+.box .side_a {
+  width: 27%;
+  height: 100%;
+  font-size: 0.78125rem;
+  line-height: 200%;
+}
+.box .side_a p {
+  display: inline;
+  margin-right: 1%;
+  color: red;
+  vertical-align: -9%;
+}
+.box .side_b {
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  width: 100%;
+  height: 80%;
+}
+.box .side_c {
+  width: 30%;
+  height: 100%;
+  font-size: 0.78125rem;
+  line-height: 200%;
+}
+.box .side_d {
+  width: 25%;
+  height: 100%;
+  font-size: 0.78125rem;
+  line-height: 200%;
+}
+.box .side_d p {
+  display: inline;
+  margin-right: 1%;
+  color: red;
+  vertical-align: -9%;
+}
+.box em {
+  display: inline-block;
+  width: 17%;
+}
+.box i {
+  margin: 0 1%;
+  font-size: 0.75rem;
+}
+.box input {
+  height: 100%;
+  font-size: 0.75rem;
+  border: 1px #ccc solid;
+}
+.box input[type=text],
+.box input[type=tel] {
+  width: 100%;
+  text-indent: 3%;
+}
+.box select {
+  height: 100%;
+  font-size: 0.75rem;
+}
+.box option p {
+  text-align: center;
+}
+.box span {
+  font-size: 0.75rem;
+  color: #00744B;
+}
+.box .ok {
+  margin-right: 3%;
+  width: 70%;
+}
+.box .no {
+  width: 35%;
+}
+.btn {
+  margin: 0 auto;
+  margin-top: 4%;
+  width: 92%;
+}
+.btn img {
+  width: 100%;
+}
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.cross {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 105%;
+  width: 12%;
+}
+.popupA,
+.popupB,
+.popupC {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 11%;
+  margin: 0 auto;
+  width: 85%;
+  height: 70%;
+  border-radius: 6px;
+}
+.popupA {
+  background: url(../images/require.jpg) no-repeat center / 100% 100%;
+}
+.popupA .btns {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 65%;
+  width: 65%;
+}
+.popupA .btns img {
+  width: 100%;
+}
+.popupB {
+  display: none;
+  background: url(../images/B.jpg) no-repeat center / 100% 100%;
+}
+.popupB .box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 16%;
+  margin: 0 auto;
+  padding: 1%;
+  width: 90%;
+  height: 70%;
+  overflow: scroll;
+}
+.popupB .box .wrap {
+  width: 100%;
+}
+.popupB .box .wrap img {
+  width: 100%;
+}
+.popupB .btns {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3%;
+  margin: 0 auto;
+  width: 60%;
+}
+.popupB .btns img {
+  width: 100%;
+}
+.popupC {
+  display: none;
+  background: url(../images/C.jpg) no-repeat center / 100% 100%;
+}
+.popupC .box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5%;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  overflow: scroll;
+}
+.popupC .box .wrap {
+  width: 100%;
+}
+.popupC .box .wrap img {
+  width: 100%;
+}
+.popupC .btns {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 105%;
+  width: 12%;
+}
+.success {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.success .bg {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 70%;
+}
+.success .bg img {
+  width: 100%;
+}
+.success .bg span {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 8px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
